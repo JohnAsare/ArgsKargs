@@ -7,11 +7,13 @@ and odd letters as lowercase"""
 
 
 def myfunc(statement):
+    output = ' '
     for index, letter in enumerate(statement, 1):
         if index % 2 == 0:
-            print(letter.upper())
+            output += letter.upper()
         else:
-            print(letter.lower())
+            output += letter.lower()
+    return output
 
 
 def myfunc_one(text):

@@ -9,7 +9,7 @@ def myfunc(*args):
     return sum(args)
 
 
-myfunc(10, 20, 10, 20)
+print(myfunc(10, 20, 10, 20))
 
 
 
